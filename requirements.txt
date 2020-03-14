@@ -1,2 +1,5 @@
 requests==2.23.0
 python-dotenv==0.12.0
+beautifulsoup4==4.8.2
+fake-useragent==0.1.11
+transmission-clutch==1.0.6

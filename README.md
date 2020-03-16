@@ -28,7 +28,7 @@ When you start betatorrent.py, the following things happens:
 - It gets your unseen shows from BetaSeries
 - For each unseen episode, it spawns a new thread that will do the following thing:
     - Mark episode as downloaded
-    - Go on 1337x and search for "<Show name> S<season>E<episode>", for example "Doctor Who S20E01"
+    - Go on 1337x and search for "%Show name% SxxExx", for example "Doctor Who S20E01"
     - Sort by desc size and take the first torrent (should be the best quality)
     - Add that torrent to Transmission and wait for it to be done downloading
     - Copy the biggest file of the torrent to the final destination and rename it
@@ -37,6 +37,7 @@ When you start betatorrent.py, the following things happens:
 ## Is it legal?
 
 Most likely a no, as it uses 1337x to download copyrighted content.
+
 Might be legal for some webseries hosted on torrent sites. Don't quote me on that.
 
 Built for educational purpose.
